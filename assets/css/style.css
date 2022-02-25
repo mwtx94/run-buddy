@@ -66,3 +66,62 @@
    footer a {
      color: #024e76;
    }
+
+   section {
+     padding: 60px;
+   }
+   
+   /* Hero Style and Form Positioning Start */
+   .hero {
+     height: 600px;
+     background-image: url("../images/hero-bg.jpeg");
+     background-size: cover;
+     background-position: center;
+     position: relative;
+   }
+
+   .hero-form {
+     padding: 20px;
+     width: 500px;
+     position: absolute;
+     bottom: 120px;
+     right: 140px;
+     border: solid 3px #024e76;
+     color: #024e76;
+     background-color: #fce138
+   }
+
+   .hero-form h3 {
+     font-size: 24px;
+     margin: 0;
+   }
+
+   .hero-form p {
+     margin: 5px 0 15px 0;
+   }
+
+   .form-input {
+     width: 100%;
+     margin-bottom: 15px;
+     border: 1px solid #024e76;
+     display: block;
+     padding: 7px 15px;
+     font-size: 16px;
+     color: #024e76
+   }
+
+   .hero-form label {
+     margin: 0 5px;
+   }
+
+   .hero-form button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #024e76; 
+    color: #fce138
+   }
+   /* Hero Style and Form Positioning End */
+
+
+   
