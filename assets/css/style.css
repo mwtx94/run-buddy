@@ -128,20 +128,6 @@
      text-align:center;
    }
    
-   .intro h2 {
-     font-size: 55px;
-     margin-bottom: 35px;
-     padding: 0 100px 20px 100px;
-     border-bottom: 3px solid;
-     border-color: #fce138;
-     color: #024e76
-   }
-
-   .intro h2 {
-     /* add this alongside your other declarations */
-     display: inline-block;
-   }
-
    .intro p {
      line-height: 1.7;
      width: 80%;
@@ -152,6 +138,54 @@
    .intro p {
      /* add this alongside your other declarations */
      margin: 0 auto;
+   }
+
+   /* style what you do section */
+   .steps {
+     text-align: center;
+     background: #fce138;
+   }
+
+   /* Organize Code With This New Rule */
+   .section-title {
+     font-size: 55px;
+     margin-bottom: 35px;
+     padding: 0 100px 20px 100px;
+     display: inline-block;
+     color: #024e76;
+     border-bottom: 3px solid;
+   }
+
+   .primary-border {
+     border-color: #fce138;
+   }
+
+   .secondary-border {
+     border-color: #39a6b2;
+   }
+
+   .steps div {
+     margin-bottom: 80px;
+   }
+
+   .steps img {
+     margin: 10px 0;
+     width: 15%;
+   }
+
+   .steps h3 {
+     font-size: 46px;
+     margin-top: 10px;
+     color: #024e76;
+   }
+
+   .steps p {
+     font-size: 23px;
+     color: #39a6b2;
+   }
+
+   .steps span {
+     font-size: 38px;
    }
 
 
