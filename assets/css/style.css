@@ -13,6 +13,9 @@
    /* apply styles to <header> */
    header {
      padding: 20px 35px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
      background-color: #39a6b2
    }
    
@@ -20,7 +23,6 @@
      font-weight: bold;
      font-size: 36px;
      margin: 0;
-     display: inline;
      color: #fce138
    }
    
@@ -30,7 +32,6 @@
    }
    
    header nav {
-     float: right;
      margin: 7px 0;
    }
    
