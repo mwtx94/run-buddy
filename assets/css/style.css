@@ -144,11 +144,8 @@
    /* Hero Style and Form Positioning End */
 
    /* What We Do Alignment and Styling */
-   .intro {
-     text-align:center;
-   }
-   
    .intro p {
+     text-align: center;
      line-height: 1.7;
      width: 80%;
      font-size: 20px;
@@ -162,16 +159,16 @@
 
    /* style what you do section */
    .steps {
-     text-align: center;
      background: #fce138;
    }
 
    /* Organize Code With This New Rule */
    .section-title {
+     padding-bottom: 20px;
+     text-align: center;
+     margin: 0 auto 35px auto;
+     width: 50%;
      font-size: 55px;
-     margin-bottom: 35px;
-     padding: 0 100px 20px 100px;
-     display: inline-block;
      color: #024e76;
      border-bottom: 3px solid;
    }
@@ -209,10 +206,6 @@
    }
 
    /* Trainer Section Styling */
-   .trainers {
-     text-align: center;
-   }
-
    .trainer {
      width: 900px;
      margin: 0 auto 30px auto;
@@ -259,7 +252,6 @@
    /* Reach Out Style Start */
    
    .contact {
-     text-align: center;
      background: #024e76
    }
 
@@ -299,6 +291,11 @@
 
    /* Reach Out Styles End */
 
+   /* flex row */
+
+   .flex-row {
+     display:flex;
+   }
    
 
 
